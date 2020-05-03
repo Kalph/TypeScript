@@ -4,7 +4,10 @@ TypeScript 란 마이크로소프트에서 개발한 오픈소스 프로그래�
 
 <br>
 
-먼저 Node.js를 설치해주어야 한다.
+먼저 Node.js를 설치해주어야 한다. 아래의 링크에서 lts 버전을 설치해준다.
+[Node.js](https://nodejs.org/ko/)
+
+<br>
 
 Node.js를 설치하면 노드 패키지 관리자인 NPM을 사용할 수 있다. 이는 다른 패키지를 설치하는 데 도움이 된다.
 
