@@ -108,7 +108,7 @@ nvm install --lts
 
 <br>
 
-그러나 위의 명령어의 실행결과 아래와 같은 오류가 발생하였다.
+그러나 위의 명령어의 실행결과 아래와 같은 오류가 발생하였다. nvm-window는 이 명령어를 사용하지 못하는 듯하다. 기능 구현이 덜 된 것으로 보임.
 
 <br>
 
@@ -121,7 +121,15 @@ Node.js v--lts.0.0 is only available in 32-bit.
 
 <br>
 
-원인은 나도 모르겠다. ㅎㅎ... 대신 차선책을 찾아보았다. 아래와 같이 list available 명령어를 통해 설치할 수 있는 버전을 탐색 후 직접 설치해주는 방법이다.
+해당 이슈를 참조하자.
+
+<br> 
+
+[Support `nvm install lts` by tats-u · Pull Request #469 · coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows/pull/469)
+ 
+<br>
+
+ 대신 차선책을 찾아보았다. 아래와 같이 list available 명령어를 통해 설치할 수 있는 버전을 탐색 후 직접 설치해주는 방법이다.
 
 <br>
 
