@@ -1,9 +1,11 @@
 <br>
+
 [TypeScript tutorial with Visual Studio Code](https://code.visualstudio.com/docs/typescript/typescript-tutorial)
 
 <br>
 
 [VSCode TypeScript 프로젝트 생성하기](https://aerocode.net/303)
+
 <br>
 
 [`PowerShell` VSCode 터미널 오류 : 이 시스템에서 스크립트를 실행할 수 없으므로 ~ .ps1 파일을 로드할 수 없습니다](https://singa-korean.tistory.com/21)
