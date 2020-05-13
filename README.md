@@ -2,7 +2,7 @@ TypeScript
 ==============
 
 ### TypeScript 공부 정리
-### [TypeScript On Vscode QuickSample](https://github.com/Kalph/TypeScript/tree/master/TypeScriptQuickSample)<br>
+#### [TypeScript On Vscode QuickSample](https://github.com/Kalph/TypeScript/tree/master/TypeScriptQuickSample)<br>
 
 <br/>
 
