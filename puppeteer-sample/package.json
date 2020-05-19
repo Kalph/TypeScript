@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-sample",
+  "version": "1.0.0",
+  "description": "Sample Code for Puppeteer",
+  "scripts": {
+    "clean": "rimraf node_modules package-lock.json; npm install",
+    "start:promise": "ts-node src/promise.ts",
+    "start:async": "ts-node src/async.ts",
+    "start:asy_craw": "ts-node src/asy_craw.ts",
+    "start:pro_craw": "ts-node src/pro_craw.ts"
+  },
+  "author": "Haze Lee <hazelee@purpleseed.co.kr>",
+  "devDependencies": {
+    "@types/node": "^12",
+    "@types/puppeteer": "^2.1.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "puppeteer": "^3.0.4"
+  }
+}
