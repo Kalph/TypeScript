@@ -4,20 +4,14 @@ const fs = require('fs');
 async function getFile () {
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
-  await page.goto('https://github.com/puppeteer/puppeteer/blob/master/README.md')
+  await page.goto('https://www.ytn.co.kr/_cs/_ln_0103_202005271609395005_005.html')
   const result = await page.evaluate(() => {
-    // document.querySelector("span.lh-default.v-align-middle")가 undefined면 .innerText도 undefined임.
-    const lastCommitMessage = (document.querySelector(
-      "span.lh-default.v-align-middle"
-    ) as HTMLSpanElement)?.innerText
-    // document.querySelector(".markdown-body.entry-content")가 undefined면 .innerHTML도 undefined임.
-    const readme = document.querySelector(".markdown-body.entry-content")?.innerHTML
-    
-    return { lastCommitMessage, readme }
+    const name = (document.querySelector('#zone1 > div.article_tit')as HTMLElement).innerText
+    return {name}
   })
 
   // evaluate로 가져온 결과는 이렇게 변수에 저장되는걸 볼 수 있음.
-  console.log(result);
+  console.log(name);
 
   fs.writeFile('outputs/async_crawling.json', JSON.stringify(result), function(err:any) {
     if(err) console.log('error', err);
