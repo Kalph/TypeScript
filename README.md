@@ -12,6 +12,7 @@ TypeScript
   
   
 * 기타 <br/>
+ [async, promise crawling puppeteer-sample](https://github.com/Kalph/TypeScript/tree/master/puppeteer-sample)<br>
  [vscode typescript 설정, ts 컴파일(tsc 명령어 powershell 실행 오류 해결)](https://github.com/Kalph/TypeScript/blob/master/%EA%B8%B0%ED%83%80/1_vscode%20on%20typescript_tsc%20command%20error.md) <br/>
  []()<br>
  
