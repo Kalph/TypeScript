@@ -3,6 +3,7 @@ TypeScript
 
 ### TypeScript 공부 정리
 #### [TypeScript On Vscode QuickSample](https://github.com/Kalph/TypeScript/tree/master/TypeScriptQuickSample)<br>
+#### [TypeScript Crawling QuickSample](https://github.com/Kalph/TypeScript/tree/master/puppeteer-sample)<br>
 
 <br/>
 
